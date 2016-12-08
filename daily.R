@@ -5,5 +5,4 @@ colnames()#列名
 rownames()#行名
 write.table(quote=F,row.names=T/F)#输出结果去掉“”，把第一列 作为行名/不作为行名
 install.packages("安装包的名字")#安装R包
-library()#读取安装包
-dir()#
+
