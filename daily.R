@@ -1,7 +1,8 @@
-rm(list=ls())#Çå¿ÕËùÓĞÊı¾İ
-setwd()#¸ü¸ÄÂ·¾¶
-read.table(,sep="\t",header=T/F)#tab·Ö¸ô£¬µÚÒ»ĞĞ×÷ÎªÁĞÃû/µÚÒ»ĞĞ²»×÷ÎªÁĞÃû
-colnames()#ÁĞÃû
-rownames()#ĞĞÃû
-write.table(quote=F,row.names=T/F)#Êä³ö½á¹ûÈ¥µô¡°¡±£¬°ÑµÚÒ»ÁĞ ×÷ÎªĞĞÃû/²»×÷ÎªĞĞÃû
-install.packages("°²×°°üµÄÃû×Ö")#°²×°R°ü
+rm(list=ls())#æ¸…ç©ºæ‰€æœ‰æ•°æ®
+setwd()#æ›´æ”¹è·¯å¾„
+read.table(,sep="\t",header=T/F)#tabåˆ†éš”ï¼Œç¬¬ä¸€è¡Œä½œä¸ºåˆ—å/ç¬¬ä¸€è¡Œä¸ä½œä¸ºåˆ—å
+colnames()#åˆ—å
+rownames()#è¡Œå
+write.table(quote=F,row.names=T/F)#è¾“å‡ºç»“æœå»æ‰â€œâ€ï¼ŒæŠŠç¬¬ä¸€åˆ— ä½œä¸ºè¡Œå/ä¸ä½œä¸ºè¡Œå
+install.packages("å®‰è£…åŒ…çš„åå­—")#å®‰è£…RåŒ…
+library()#è¯»å–å®‰è£…åŒ…
